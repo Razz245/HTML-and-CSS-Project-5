@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #e4e4e4;
+}
+.invoice_table{
+
+}
+.container{
+    width: 734px;
+    height: 300px;
+    /* width: 65%; */
+    margin: 240px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 8px rgba(0, 0, 0, 0.1);
+
+}
+.contant_wrepper{
+    padding: 30px 28px;
+
+
+}
+.invoice{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 10px;
+
+}
+.invoice p{
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 23px;
+    color: #1b1a1a;
+
+}
+.button{
+    background-color: #15803D;
+    padding: 10px 17px;
+    border-radius: 7px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.table-part table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+.table-part table tr{
+
+}
+.table-part table tr:first-child{
+    border-bottom: 2.5px solid #ddd;
+
+}
+.table-part table th, td{
+    font-size: 13px;
+    font-weight: bold;
+    color: #6D6D71;
+    padding: 10px 8px 10px 0;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.table-part table tr th{
+    padding-bottom: 6px;
+}
+.client{
+    display: flex;
+    font-weight: bold;
+    color: #0A0A0A;
+
+}
+.client-title{
+    text-align: center;
+    border-radius: 15px;
+    width: 35px;
+    height: 20px;
+    padding: 2px;
+    background-color: #c4c4c4;
+
+}
+.client-text{
+    padding: 2px 0 0 0;
+    border-radius: 5px;
+    width: 20px;
+    height: 30px;
+    text-align: center;
+    /* font-size: 15px; */
+
+}
+.green{
+    border: 1px solid #0e9441;
+    color: #0e9441;
+    text-align: center;
+    border-radius: 15px;
+    width: 46px;
+    height: 20px;
+
+}
+.blew{
+    border: 1px solid #1547d1;
+    color: #426bde;
+    text-align: center;
+    border-radius: 15px;
+    width: 46px;
+    height: 20px;
+
+}
+.draft{
+    border: 1px solid #DDD;
+    color: #71717A;
+    text-align: center;
+    border-radius: 15px;
+    width: 46px;
+    height: 20px;
+}
